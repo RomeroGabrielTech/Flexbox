@@ -9,12 +9,31 @@
     height: 500px;
     margin: 20px auto;
     border: 1px solid #000;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .item {
-    width: 100;
-    height: 100;
+    width: 100px;
+    height: 100px;
     text-align: center;
     color: #fff;
     font-size: 30px;
+}
+
+.item1 {
+    background: steelblue;
+}
+
+.item2 {
+    background: crimson;
+}
+
+.item3 {
+    background: darkcyan;
+}
+
+.item4 {
+    background: darkmagenta;
 }
